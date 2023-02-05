@@ -1,0 +1,13 @@
+﻿
+
+
+<div class="text-center">
+@using (Html.BeginForm("Index","Home",FormMethod.Post,new{ enctype="multipart/form-data"}))
+{
+    <p>Dosya Seçimi</p>
+    <input type="file" name ="dosya_path" />
+    <input type="submit" value="Kaydet" />
+}
+
+
+</div>
